@@ -27,7 +27,7 @@ header {
   background-color: #e2e2e2;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -35,7 +35,7 @@ ul {
   display: flex;
 }
 
-ul li a {
+nav a {
   text-decoration: none;
   color: #0074d9;
   padding: 0 1rem;
@@ -47,8 +47,18 @@ ul li a:hover {
   color: #fff;
 }
 
-h1 {
-  justify-content: flex-start;
+header img {
+  margin: auto;
+  background-color: red;
+
+}
+
+header h1 {
+  margin: auto;
 
   background-color: pink;
+}
+
+header p {
+  margin: auto;
 }
