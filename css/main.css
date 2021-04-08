@@ -47,7 +47,8 @@ ul li a:hover {
   color: #fff;
 }
 
-header img
+header img {
+  margin: auto;
 
 }
 
