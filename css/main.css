@@ -8,26 +8,46 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  width: 2%;
-}
-
 body {
   margin: 0;
 }
 
+img {
+  order: -1;
+  width: 2rem;
+}
+
 header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: .75em 1em .6em;
 
   background-color: #e2e2e2;
 }
 
 ul {
   list-style-type: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  background-color: green;
 }
 
 ul a {
   text-decoration: none;
   color: #0074d9;
+  background-color: red;
+
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+p: {
+  display: flex;
+  justify-content: center;
+
 }
