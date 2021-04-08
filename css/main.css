@@ -47,16 +47,12 @@ ul li a:hover {
   color: #fff;
 }
 
-header img {
-  margin: auto;
-  background-color: red;
+header img
 
 }
 
 header h1 {
   margin: auto;
-
-  background-color: pink;
 }
 
 header p {
