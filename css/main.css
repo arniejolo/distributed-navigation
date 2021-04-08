@@ -33,7 +33,6 @@ ul {
   padding: 0;
 
   display: flex;
-  background-color: green;
 }
 
 ul li a {
@@ -42,13 +41,14 @@ ul li a {
   padding: 0 1rem;
 
   display: flex;
-
-  background-color: red;
-
 }
 
-@media only screen and (min-width:40em){
+ul li a:hover {
+  color: #fff;
+}
 
-  header {
-    flex-direction: row;
-  }
+h1 {
+  justify-content: flex-start;
+
+  background-color: pink;
+}
